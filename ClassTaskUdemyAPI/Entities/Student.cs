@@ -1,8 +1,9 @@
 ﻿using ClassTaskUdemyAPI.Dtos.BaseDtos;
+using ClassTaskUdemyAPI.Entities.Common;
 
 namespace ClassTaskUdemyAPI.Entities
 {
-    public class Student:BaseAudiTableEntityDto
+    public class Student:BaseAudiTableEntity
     {
         public string Name { get; set; }
         public string  Surname { get; set; }
